@@ -1,7 +1,14 @@
+import Header from "../components/Header.jsx";
+import SpecialityMenu from "../components/SpecialityMenu.jsx";
+import TopDoctors from "./TopDoctors.jsx";
+import Banner from "../components/Banner.jsx";
 const Home = () => {
     return (
         <div>
-            <h1 className="text-black">Home Page</h1>
+            <Header />
+            <SpecialityMenu/>
+            <TopDoctors/>
+            <Banner/>
         </div>
     )
 }
