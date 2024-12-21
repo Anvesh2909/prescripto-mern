@@ -10,14 +10,15 @@ import Appointment from "./sections/Appointment.jsx";
 import MyAppointments from "./sections/MyAppointments.jsx";
 import About from "./sections/About.jsx";
 import SpecialityMenu from "./components/SpecialityMenu.jsx";
+import Doctors from "./sections/Doctors.jsx";
 const App = () => {
     return (
         <div className="mx-4 sm:mx-[10%]">
             <Navbar />
             <Routes>
                 <Route path="/" element={<Home />} />
-                <Route path="/doctors" element={<TopDoctors />} />
-                <Route path="/doctors/:speciality" element={<TopDoctors />} />
+                <Route path="/doctors" element={<Doctors/>}/>
+                <Route path="/doctors/:id" element={<Doctors/>}/>
                 <Route path="/login" element={<Login />} />
                 <Route path="/signup" element={<Signup />} />
                 <Route path="/myprofile" element={<MyProfile />} />
