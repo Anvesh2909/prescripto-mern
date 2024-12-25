@@ -7,7 +7,7 @@ const Doctors = () => {
     const navigate = useNavigate();
     const { doctors } = useContext(AppContext);
     const [filterDoc, setFilterDoc] = useState([]);
-    const [selectedSpeciality, setSelectedSpeciality] = useState(speciality || "");
+    const [selectedSpeciality, setSelectedSpeciality] = useState(speciality || ""); // Track selected speciality
 
     const applyFilter = () => {
         if (speciality) {
