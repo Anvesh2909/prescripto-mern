@@ -30,6 +30,9 @@ import doc12 from './doc12.png'
 import doc13 from './doc13.png'
 import doc14 from './doc14.png'
 import doc15 from './doc15.png'
+import doc16 from './doc16.png'
+import doc17 from './doc17.png'
+import doc18 from './doc18.png'
 import Dermatologist from './Dermatologist.svg'
 import Gastroenterologist from './Gastroenterologist.svg'
 import General_physician from './General_physician.svg'
@@ -296,4 +299,47 @@ export const doctors = [
             line2: 'Circle, Ring Road, London'
         }
     },
+    {
+        _id: 'doc16',
+        name: 'Dr. John Doe',
+        image: doc16,
+        speciality: 'Gastroenterologist',
+        degree: 'MBBS',
+        experience: '3 Years',
+        about: 'Dr. John has expertise in diagnosing and treating various gastrointestinal disorders. His approach emphasizes patient education, prevention, and personalized treatment plans.',
+        fees: 40,
+        address: {
+            line1: '45th Avenue, East Park',
+            line2: 'Greenfield, London'
+        }
+    },
+    {
+        _id: 'doc17',
+        name: 'Dr. Sarah Lee',
+        image: doc17,
+        speciality: 'Gastroenterologist',
+        degree: 'MBBS, MD',
+        experience: '5 Years',
+        about: 'Dr. Sarah specializes in the treatment of digestive issues, including IBS, Crohn’s disease, and liver conditions. She is dedicated to providing the highest level of care through advanced diagnostic techniques.',
+        fees: 45,
+        address: {
+            line1: '12th Street, West End',
+            line2: 'Parkview, London'
+        }
+    },
+    {
+        _id: 'doc18',
+        name: 'Dr. Michael Smith',
+        image: doc18,
+        speciality: 'Gastroenterologist',
+        degree: 'MBBS, MD',
+        experience: '7 Years',
+        about: 'With extensive experience in gastroenterology, Dr. Michael is known for his expertise in managing chronic digestive conditions and utilizing cutting-edge treatments.',
+        fees: 50,
+        address: {
+            line1: '59th Road, Central Park',
+            line2: 'Northbridge, London'
+        }
+    }
+
 ]

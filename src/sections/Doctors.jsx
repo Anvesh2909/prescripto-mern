@@ -31,7 +31,6 @@ const Doctors = () => {
         <div>
             <p className="text-gray-600">Browse through the doctors specialists</p>
             <div className="flex flex-col sm:flex-row items-start gap-5 mt-5 text-gray-800">
-                {/* Sidebar for filtering */}
                 <div className="flex flex-col gap-4 text-sm text-gray-600">
                     {[
                         "General Physician",
@@ -41,17 +40,32 @@ const Doctors = () => {
                         "Neurologist",
                         "Gastroenterologist",
                     ].map((specialityName, index) => (
-                        <p
+                        <button
                             key={index}
                             onClick={() => handleSpecialityClick(specialityName)}
-                            className={`w-[94vw] sm:w-auto pl-3 py-1.5 pr-16 border border-gray-300 transition-all rounded cursor-pointer ${
-                                selectedSpeciality === specialityName
-                                    ? "bg-indigo-100 text-black"
-                                    : ""
-                            }`}
+                            className={`
+        w-[94vw] sm:w-auto
+        px-6 py-2.5
+        rounded-full
+        border 
+        font-medium
+        transition-all duration-200
+        flex items-center justify-between
+        cursor-pointer
+        ${selectedSpeciality === specialityName
+                                ? "bg-indigo-100 text-indigo-700 border-indigo-200 shadow-sm"
+                                : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-900"
+                            }
+        hover:shadow-sm
+        hover:scale-[1.02]
+        active:scale-[0.98]
+    `}
                         >
-                            {specialityName}
-                        </p>
+                            <span>{specialityName}</span>
+                            {selectedSpeciality === specialityName && (
+                                <span className="text-indigo-500 ml-2">•</span>
+                            )}
+                        </button>
                     ))}
                 </div>
 
