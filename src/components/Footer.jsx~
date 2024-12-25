@@ -63,11 +63,11 @@ const Footer = () => {
                         <h2 className="text-xl font-bold text-gray-800">Get in Touch</h2>
                         <ul className="space-y-4">
                             <li className="flex items-center space-x-3 text-gray-600 ">
-                                <Phone className="w-5 h-5 text-blue-600 hover:scale-[1.1] transition-all duration-300" />
+                                <Phone className="w-5 h-5 text-blue-600 hover:scale-[2] transition-all duration-300" />
                                 <span>+916305625811</span>
                             </li>
                             <li className="flex items-center space-x-3 text-gray-600">
-                                <Mail className="w-5 h-5 text-blue-600 hover:scale-[1.1] transition-all duration-300" />
+                                <Mail className="w-5 h-5 text-blue-600 hover:scale-[2] transition-all duration-300" />
                                 <a
                                     href="mailto:anveshyadavmokam@gmail.com"
                                     className="hover:text-blue-600 transition-colors"
