@@ -65,5 +65,4 @@ const TopDoctors = () => {
         </div>
     );
 };
-
 export default TopDoctors;

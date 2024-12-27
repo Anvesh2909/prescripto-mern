@@ -29,7 +29,7 @@ const About = () => {
                         </div>
 
                         <div className="bg-blue-50 rounded-xl p-6 border border-blue-200">
-                            <h2 className="text-2xl font-semibold text-blue-800 mb-4">
+                            <h2 className="text-2xl font-semibold text-primary mb-4">
                                 Our Vision
                             </h2>
                             <p className="text-gray-700 leading-relaxed">

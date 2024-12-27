@@ -70,7 +70,7 @@ const MyProfile = () => {
                                 alt={userdata.name}
                                 className="w-32 h-32 rounded-full object-cover border-4 border-white shadow-lg"
                             />
-                            <button className="absolute bottom-0 right-0 bg-blue-600 text-white p-2 rounded-full hover:bg-blue-700 transition-colors">
+                            <button className="absolute bottom-0 right-0 bg-primary text-white p-2 rounded-full hover:bg-blue-700 transition-colors">
                                 <Camera className="w-4 h-4" />
                             </button>
                         </div>
@@ -138,7 +138,7 @@ const MyProfile = () => {
                                 </button>
                                 <button
                                     onClick={() => setIsEdit(false)}
-                                    className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+                                    className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
                                 >
                                     Save
                                 </button>
@@ -146,7 +146,7 @@ const MyProfile = () => {
                         ) : (
                             <button
                                 onClick={() => setIsEdit(true)}
-                                className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
+                                className="bg-primary text-white px-6 py-2 rounded-lg hover:bg-blue-700 transition-colors"
                             >
                                 Edit Profile
                             </button>

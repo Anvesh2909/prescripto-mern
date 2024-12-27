@@ -53,7 +53,7 @@ const Doctors = () => {
         flex items-center justify-between
         cursor-pointer
         ${selectedSpeciality === specialityName
-                                ? "bg-indigo-100 text-indigo-700 border-indigo-200 shadow-sm"
+                                ? "bg-indigo-100 text-primary border-indigo-200 shadow-sm"
                                 : "bg-white text-gray-600 border-gray-200 hover:bg-gray-50 hover:border-gray-300 hover:text-gray-900"
                             }
         hover:shadow-sm

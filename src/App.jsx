@@ -3,7 +3,6 @@ import Home from "./sections/Home.jsx";
 import Navbar from "./components/Navbar.jsx";
 import Footer from "./components/Footer.jsx";
 import Login from "./sections/Login.jsx";
-import Signup from "./sections/Signup.jsx";
 import MyProfile from "./sections/MyProfile.jsx";
 import Appointment from "./sections/Appointment.jsx";
 import MyAppointments from "./sections/MyAppointments.jsx";
@@ -20,7 +19,6 @@ const App = () => {
                 <Route path="/doctors" element={<Doctors/>}/>
                 <Route path="/doctors/:speciality" element={<Doctors/>}/>
                 <Route path="/login" element={<Login />} />
-                <Route path="/signup" element={<Signup />} />
                 <Route path="/myprofile" element={<MyProfile />} />
                 <Route path="/appointment" element={<Appointment />} />
                 <Route path="/appointment/:docId" element={<Appointment />} />
