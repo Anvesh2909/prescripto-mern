@@ -45,7 +45,7 @@ const Navbar = () => {
                                 {item.label}
                             </li>
                             <hr
-                                className={`border-none outline-none h-0.5 bg-primay w-3/5 m-auto ${
+                                className={`border-none outline-none h-0.5 bg-primary w-3/5 m-auto ${
                                     activeIdx === index ? "block" : "hidden"
                                 }`}
                             />
@@ -140,5 +140,4 @@ const Navbar = () => {
         </div>
     );
 };
-
 export default Navbar;
