@@ -3,6 +3,7 @@ import {useNavigate} from "react-router-dom";
 
 const Header = () => {
     const navigate = useNavigate();
+
     return (
         <div className="flex flex-col md:flex-row items-center justify-between bg-primary rounded-xl px-8 py-12 md:py-16 gap-8 shadow-lg">
             <div className="text-center md:text-left flex-1 space-y-6 pl-4">
