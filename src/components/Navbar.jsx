@@ -62,7 +62,7 @@ const Navbar = () => {
                                 <div className='min-w-48 bg-white shadow-lg rounded-lg flex flex-col gap-2 p-4'>
                                     <p
                                         onClick={() => {navigate('/myprofile')}}
-                                        className='hover:text-primay cursor-pointer p-2 rounded-md hover:bg-gray-50'
+                                        className='hover:text-primary cursor-pointer p-2 rounded-md hover:bg-gray-50'
                                     >
                                         My Profile
                                     </p>
@@ -117,7 +117,7 @@ const Navbar = () => {
                                 to={item.path}
                                 onClick={() => handleNavClick(index)}
                                 className={({ isActive }) =>
-                                    `py-3 px-4 rounded-md ${isActive ? 'text-primay bg-blue-50' : 'text-gray-700 hover:bg-gray-50'}`
+                                    `py-3 px-4 rounded-md ${isActive ? 'text-primary bg-blue-50' : 'text-gray-700 hover:bg-gray-50'}`
                                 }
                             >
                                 {item.label}
